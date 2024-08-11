@@ -1,0 +1,32 @@
+INDOOR_RENTAL:
+  AREAPRICE:
+    Basketball / Volleyball Court: $50/hour
+    Multipurpose Rooms: $40-$60/hour
+    Multi-Activity Court: $80/hour
+    CRC Pool (entire pool): $200/hour
+    CRC Pool (per lane cost): $30/hour
+    CRC Pool (entire diving well): $60/hour
+
+IM FIELD COMPLEX:
+  Student Organization Rate:
+    Competition Soccer Field (100 x 60 yards): $35.00/hour
+    Intramural Soccer Field (100 x 40 yard): $25.00/hour
+    IM Field Complex Facility Supervisor: $15.00/hour
+  Community Rate:
+    Competition Soccer Field (100 x 60 yards): $75.00/hour
+    Intramural Soccer Field (100 x 40 yard): $60.00/hour
+    IM Field Complex Facility Supervisor: $15.00/hour
+
+SAND VOLLEYBALL COMPLEX:
+  Student Organization Rate:
+    Sand Volleyball Courts (per court): $20.00/hour
+    Sand Volleyball Pavilion: $20.00/hour
+  Community Rate:
+    Sand Volleyball Courts (per court): $40.00/hour
+    Sand Volleyball Pavilion: $40.00/hour
+
+OUTDOOR BASKETBALL COURTS:
+  Student Organization Rate:
+    Basketball Courts (per court): $20.00/hour
+  Community Rate:
+    Basketball Courts (per court): $40.00/hour

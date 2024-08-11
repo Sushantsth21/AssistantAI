@@ -1,12 +1,12 @@
 // pages/index.tsx
 import Navbar from '../_components/Navbar';
-import HeroSection from '../_components/HeroSection';
+import Talk from './talk';
 
 const Homepage: React.FC = () => {
   return (
     <div>
       <Navbar />
-      <HeroSection />
+      <Talk />
 
     </div>
   );

@@ -1,0 +1,37 @@
+{
+    "Memberships": {
+      "AvailableGroups": [
+        "Public/Community individuals, their spouse, and dependents",
+        "Alumni individuals, their spouse, and dependents",
+        "Spouse and dependents of NKU staff / faculty and retirees",
+        "Spouse and dependents of currently enrolled NKU students on a semester basis only",
+        "Summer memberships for NKU students not enrolled in summer classes"
+      ],
+      "DependentRules": [
+        "Dependents must be under 26 years of age",
+        "Children under the age of 18 must be accompanied at all time by a parent or guardian who is 18 years of age or over"
+      ],
+      "ParkingPermit": {
+        "Validity": "One year from date of purchase",
+        "EligibleBuyers": "Members who are not current NKU students, staff, faculty, or contract employees"
+      },
+      "Policies": [
+        "A valid member ID card must be presented at the Front Desk for admittance",
+        "NKU students and faculty/staff members can use their Northern Kentucky University ID card or the CRC App for entrance",
+        "Public/Community members will be issued Campus Recreation membership cards",
+        "Staff reserves the right to request identification at any time",
+        "Campus Recreation is not responsible for lost, stolen, or damaged ID cards",
+        "$5 fee for replacement cards",
+        "Adults (18 and older) must present a photo ID and sign the NKU Campus Recreation Use Agreement to purchase a CRC membership",
+        "Members must provide a VALID email, phone number, and address at time of purchase and renewal",
+        "Members must have their photo taken for membership account before entering the facility",
+        "Memberships are non-transferable after purchase",
+        "No refunds or pauses on memberships while the Campus Recreation Center is open",
+        "Family and Supplemental members must reside at the same address as the primary account holder",
+        "NKU students not enrolled in summer classes must purchase a summer membership",
+        "Children ages 2 and above require a Guest pass or active membership for entry",
+        "Payroll deduction can be initiated at the membership desk",
+        "Changes or cancellations to payroll deduction require completing a form at least two weeks prior to next deduction"
+      ]
+    }
+  }

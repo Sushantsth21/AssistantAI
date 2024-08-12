@@ -40,69 +40,37 @@ const Talk: React.FC = () => {
   };
 
   return (
-    <div style={{ maxWidth: '600px', margin: '0 auto', padding: '20px' }}>
-  <div style={{ 
-    height: '400px', 
-    overflowY: 'scroll', 
-    border: '1px solid #ccc', 
-    borderRadius: '10px',
-    padding: '15px',
-    backgroundColor: '#f0f0f0', // Light grey background
-    marginBottom: '20px'
-  }}>
-    {messages.map((msg, index) => (
-      <div 
-        key={index} 
-        style={{ 
-          textAlign: msg.sender === 'user' ? 'right' : 'left',
-          marginBottom: '10px'
-        }}
-      >
-        <span style={{
-          display: 'inline-block',
-          maxWidth: '70%',
-          padding: '10px 15px',
-          borderRadius: '20px',
-          backgroundColor: msg.sender === 'user' ? '#007bff' : '#343a40', // Blue for user, dark grey for bot
-          color: 'white'
-        }}>
-          {msg.text}
-        </span>
+    <div className="max-w-3xl mx-auto p-5 mt-24">
+      <div className="h-96 overflow-y-scroll border border-gray-300 rounded-lg p-4 bg-gray-100 mb-5">
+        {messages.map((msg, index) => (
+          <div
+            key={index}
+            className={`mb-2 ${msg.sender === 'user' ? 'text-right' : 'text-left'}`}
+          >
+            <span
+              className={`inline-block max-w-[70%] p-3 rounded-lg ${msg.sender === 'user' ? 'bg-blue-500 text-white' : 'bg-gray-700 text-white'}`}
+            >
+              {msg.text}
+            </span>
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
-  <form onSubmit={sendMessage} style={{ display: 'flex' }}>
-      <input
-      type="text"
-      value={input}
-      onChange={(e) => setInput(e.target.value)}
-      placeholder="Type a message..."
-      style={{ 
-        flexGrow: 1,
-        padding: '10px',
-        border: '1px solid #ccc',
-        borderRadius: '20px 0 0 20px',
-        outline: 'none',
-        color: '#000',  // Set text color to black
-        backgroundColor: '#fff'  // Set background to white
-      }}
-    />
-    <button 
-      type="submit" 
-      style={{ 
-        width: '80px',
-        border: 'none',
-        backgroundColor: '#007bff',
-        color: 'white',
-        padding: '10px',
-        borderRadius: '0 20px 20px 0',
-        cursor: 'pointer'
-      }}
-    >
-      Send
-    </button>
-  </form>
-</div>
+      <form onSubmit={sendMessage} className="flex">
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          placeholder="Type a message..."
+          className="flex-grow p-3 border border-gray-300 rounded-l-lg outline-none text-black bg-white"
+        />
+        <button
+          type="submit"
+          className="w-20 border-none bg-blue-500 text-white p-3 rounded-r-lg cursor-pointer"
+        >
+          Send
+        </button>
+      </form>
+    </div>
   );
 };
 

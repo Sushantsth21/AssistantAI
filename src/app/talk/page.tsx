@@ -5,7 +5,6 @@ import Talk from './talk';
 const Homepage: React.FC = () => {
   return (
     <div>
-      <Navbar />
       <Talk />
 
     </div>

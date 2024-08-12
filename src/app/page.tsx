@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Homepage from './page/Homepage'
+import HeroSection from "@/components/home/HeroSection";
 
-export default function Home() {
-  return (
-    <main className="">
-      <Homepage />
-    </main>
-  );
-}
+const Home = () => {
+  return <div>
+    <HeroSection />
+  </div>;
+};
+
+export default Home;
